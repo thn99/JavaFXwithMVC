@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="223.0" prefWidth="459.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ManageDepartmentsController">
+   <children>
+      <Button fx:id="btnSave" layoutX="393.0" layoutY="184.0" mnemonicParsing="false" onAction="#save" text="Save" AnchorPane.leftAnchor="393.0" AnchorPane.topAnchor="184.0" />
+      <TextField fx:id="txtId" layoutX="155.0" layoutY="28.0" promptText="ID" AnchorPane.leftAnchor="155.0" AnchorPane.topAnchor="28.0" />
+      <TextField fx:id="txtName" layoutX="155.0" layoutY="71.0" promptText="Name" AnchorPane.leftAnchor="155.0" AnchorPane.topAnchor="71.0" />
+      <TextField fx:id="txtBudget" layoutX="155.0" layoutY="112.0" promptText="Budget" AnchorPane.leftAnchor="155.0" AnchorPane.topAnchor="112.0" />
+      <TextField fx:id="txtExpenses" layoutX="155.0" layoutY="155.0" promptText="Expenses" AnchorPane.leftAnchor="155.0" AnchorPane.topAnchor="155.0" />
+   </children>
+</AnchorPane>

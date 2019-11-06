@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="WindowDepartmentController">
+   <children>
+      <TableView fx:id="table" layoutY="6.0" prefHeight="318.0" prefWidth="601.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="colId" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="colName" prefWidth="150.0" text="Name" />
+            <TableColumn fx:id="colBudget" prefWidth="103.0" text="Budget" />
+            <TableColumn fx:id="colExpenses" prefWidth="103.0" text="Expenses" />
+            <TableColumn fx:id="colRentable" prefWidth="168.0" text="Rentable" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnAdd" layoutX="48.0" layoutY="348.0" mnemonicParsing="false" onAction="#add" prefHeight="25.0" prefWidth="100.0" text="Add" AnchorPane.leftAnchor="48.0" AnchorPane.topAnchor="348.0" />
+      <Button fx:id="btnEdit" layoutX="187.0" layoutY="348.0" mnemonicParsing="false" onAction="#edit" prefHeight="25.0" prefWidth="100.0" text="Edit" AnchorPane.leftAnchor="187.0" AnchorPane.topAnchor="348.0" />
+      <Button fx:id="btnView" layoutX="320.0" layoutY="348.0" mnemonicParsing="false" onAction="#view" prefHeight="25.0" prefWidth="100.0" text="View" AnchorPane.leftAnchor="320.0" AnchorPane.topAnchor="348.0" />
+      <Button fx:id="btnDelete" layoutX="457.0" layoutY="348.0" mnemonicParsing="false" onAction="#delete" prefWidth="100.0" text="Delete" AnchorPane.leftAnchor="457.0" AnchorPane.topAnchor="348.0" />
+   </children>
+</AnchorPane>
